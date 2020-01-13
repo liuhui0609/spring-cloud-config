@@ -1,2 +1,7 @@
 server:
   port: 9081
+spring:
+  rabbitmq:
+    addresses: http://localhost:5672/
+    username: guest
+    password: guest
